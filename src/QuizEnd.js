@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
 class QuizEnd extends Component {
-  handleResetclick() {
+  handleResetClick() {
     this.props.resetClickHandler();
   }
   render() {
     return (
       <div>
         <p>Thanks for playing!</p>
-        <a onClick={this.handleResetclick.bind(this)} href="#">
+        <a onClick={this.handleResetClick.bind(this)} href="#">
           Reset Quiz
         </a>
       </div>
